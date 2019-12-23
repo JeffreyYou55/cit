@@ -1,0 +1,8 @@
+print("jeff")
+print('christmas')
+print("jeffrey's macbook")
+print(36)
+print(-12)
+print(-3.84)
+print(True)
+print(False)
