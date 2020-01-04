@@ -13,7 +13,7 @@ def draw_coordinate():
 
     # x coordinate :for
     penup()
-    setx(-300)
+    setx(-310)
     for i in range(61):
         if(i%space == 0 and i != 30):
             write(i-30)
@@ -32,7 +32,7 @@ def draw_coordinate():
     forward(600)
     # y coordinate : while
     penup()
-    setx(5)
+    setx(-5)
     sety(-300)
     left(90)
     yValue = -30
@@ -43,7 +43,11 @@ def draw_coordinate():
         # else:
         #     yValue=yValue+1
         if(yValue%5==0):
+            right(90)
+            forward(10)
             write(yValue)
+            backward(10)
+            left(90)
         yValue=yValue+1
         forward(10)
     backward(600)
